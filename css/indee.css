@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: rgb(17, 17, 17);
+}
+
+nav{
+    background: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 5px;
+    padding-top: 2%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+label.logo .img-ii{
+    width: 110px;
+    margin-top: -1%;
+}
+h1 span{
+    color: #ff0000;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 7%;
+}
+
+nav ul span .img-logo{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.active{
+    border: 2px solid #ffffff;
+    transition: .5s;
+    padding: 12px 23px;
+    border-radius: 30px;
+}
+a.active:hover{
+    scale: 2.5;
+    background: rgba(139, 101, 101, 0.411);
+}
+a:hover{
+    color: #ff0000;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 38px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.vip{
+    height: 7%;
+}
+
+
+.contain{
+    width: auto;
+    height: auto;
+    margin: 5% 8%;
+}
+.contain .col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col .lef{
+    width: 44%;
+}
+.col .lef img{
+    width: 100%;
+    border-radius: 8px;
+}
+.col .rig{
+    width: 42%;
+    padding: 12px;
+}
+.col .rig h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 986px){
+
+    label.logo{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    nav ul{
+        float: right;
+        list-style: none;
+        box-sizing: border-box;
+        margin-right: 3%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 802px) {
+    .container{
+        height: auto;
+    }
+    .checkbtn{
+        display: block;
+        color: rgb(255, 255, 255);
+        margin-right: 8%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    label.logo .img-ii{
+        width: 110px;
+        margin-top: -4%;
+    }
+  
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #292b2c;
+        top: 62px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+  
+    nav ul span .img-logo{
+        display: block;
+        width: 100%;
+    }
+  
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+  
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    a.active{
+        background: none;
+        color: #ffffff;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    #check:checked ~ ul{
+        left: -50px;
+        transition: .5s;
+    }
+
+
+.vip{
+    height: 15%;
+}
+
+
+    
+.contain{
+    width: auto;
+    height: auto;
+    margin: 0 5%;
+}
+.contain .col{
+    width: 100%;
+    display: block;
+    margin-bottom: 8%;
+}
+.col .lef{
+    width: auto;
+}
+.col .lef img{
+    width: 100%;
+    border-radius: 8px;
+}
+.col .rig{
+    width: auto;
+    padding: 12px;
+}
+.col .rig h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
