@@ -1,0 +1,968 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: auto;
+    position: fixed;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    margin-left: 3%;
+    font-weight: bold;
+}
+label.logo .img-ii{
+    width: 80px;
+    margin-top: 2%;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+
+nav ul span .img-logo{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.active{
+    border: 2px solid #ffffff;
+    transition: .5s;
+    padding: 12px 23px;
+    border-radius: 30px;
+}
+a.active:hover{
+    scale: 2.5;
+    background: rgba(101, 138, 139, 0.411);
+}
+a:hover{
+    color: #00e1ff;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 38px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.vip{
+    height: 8%;
+}
+
+
+
+
+
+
+header{
+    background: url("../image/pic\ \(9\).jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 70%;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+header .hea{
+    width: 40%;
+}
+header .hea h1{
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+header .hea h1 span{
+    color: #0059ff;
+}
+header .hea p{
+    font-size: 15px;
+    text-align: center;
+}
+header .hea .pan{
+    display: flex;
+    justify-content: center;
+}
+.hea .pan p{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 33px;
+    transition: 0.3s;
+    margin-right: 5%;
+}
+.hea .pan p:hover{
+    background: rgb(0, 132, 255);
+}
+.hea .pan p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.section{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.87);
+    padding: 20px 0;
+}
+.section .sect{
+    display: flex;
+    justify-content: space-around;
+}
+.section .sect p{
+    color: #00a2ff;
+    font-size: 28px;
+}
+
+
+
+
+
+.section2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.section2 .cool{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+.section2 .cool .lef{
+    width: 30%;
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 1px 28px 0 black;
+    margin-bottom: -3%;
+}
+.cool .lef h3{
+    font-weight: bolder;
+    font-family: Arial;
+}
+.cool .lef h2{
+    font-family: monospace;
+    font-size: 25px;
+}
+.cool .lef p{
+    color: #6382bba2;
+}
+
+.section2 .cool .rig{
+    width: 48%;
+    margin-left: -3%;
+    margin-top: -5%;
+}
+.section2 .cool .rig img{
+    width: 100%;
+    box-shadow: 0 2px 28px 0 black;
+    border-radius: 5px;
+}
+.section2 .cool .rig .don{
+    display: none;
+}
+
+
+
+
+
+.section3{
+    width: auto;
+    height: auto;
+    margin-bottom: 4%;
+}
+.section3 h2{
+    font-size: 30px;
+    text-align: center;
+}
+.section3 p{
+    text-align: center;
+}
+.section3 .cen{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #000000;
+    margin-top: 5%;
+}
+.section3 .cen span{
+    width: 13%;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 23px 0 black;
+}
+.cen span .cee{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.cen span .cee img{
+    width: 40%;
+    border-radius: 50px;
+}
+.cen span h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+.section4{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.section4 .set{
+    width: 93%;
+    height: 78vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background: #00ccff;
+    color: #fff;
+}
+.set .lef{
+    width: 55%;
+    box-shadow: 0 2px 23px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.set .lef img{
+    width: 90%;
+}
+
+.section4 .set .rig{
+    width: 48%;
+    margin-left: 5%;
+    margin-top: 6%;
+    padding-right: 3%;
+}
+.set .rig h2{
+    font-size: 38px;
+    color: #0051ff;
+}
+.set .rig p{
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+.section5{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.section5 .sect{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+}
+.section5 .sect .lef{
+    width: 44%;
+}
+.section5 .sect .lef img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section5 .sect .rig{
+    width: 50%;
+    margin-top: 2%;
+}
+.section5 .sect .rig h2{
+    border-left: 5px solid #0051ff;
+    color: #0051ff;
+    padding-left: 3%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+.section5 .sect .rig .bott{
+    display: flex;
+    justify-content: safe;
+}
+.section5 .sect .rig .bott .p{
+    background: #0059ff;
+    padding: 15px 27px;
+    margin-right: 3%;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.section5 .sect .rig .bott .p:hover{
+    background: #011b53;
+}
+.section5 .sect .rig .bott p{
+    background: none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px 27px;
+    color: #0051ff;
+    border: 1px solid #0051ff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.section5 .sect .rig .bott p:hover{
+    background: #a3b2d1;
+}
+
+
+
+
+
+
+footer{
+    width: auto;
+    height: 12%;
+    background: #010b22;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1106px){
+
+    label.logo{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    nav ul{
+        float: right;
+        list-style: none;
+        box-sizing: border-box;
+        margin-right: 3%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+
+
+    
+
+
+
+header{
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+header .hea{
+    width: 50%;
+    margin-bottom: 4%;
+    margin-top: 7%;
+}
+
+
+
+.section{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.87);
+    padding: 40px 0;
+}
+.section .sect{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.section2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.section2 .cool{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.section2 .cool .lef{
+    width: 30%;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 28px 0 black;
+}
+
+.section2 .cool .rig{
+    width: 53%;
+}
+.section2 .cool .rig img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 28px 0 black;
+    border-radius: 5px;
+}
+.section2 .cool .rig .don{
+    display: block;
+    margin-top: 4%;
+    margin-bottom: -12%;
+}
+
+
+
+
+
+
+
+
+.section4{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.section4 .set{
+    width: 93%;
+    height: 78vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background: #00ccff;
+    color: #fff;
+}
+.set .lef span{
+    display: block;
+    width: 55%;
+    box-shadow: 0 2px 23px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.set .lef span img{
+    width: 90%;
+}
+
+.section4 .set .rig{
+    width: 48%;
+    margin-left: 5%;
+    margin-top: 6%;
+    padding-right: 3%;
+}
+.set .rig h2{
+    font-size: 38px;
+    color: #0051ff;
+}
+.set .rig p{
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 802px) {
+    .container{
+        height: auto;
+    }
+    .checkbtn{
+        display: block;
+        color: rgb(255, 255, 255);
+        margin-right: 8%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    label.logo .img-ii{
+        width: 80px;
+        margin-top: 5%;
+    }
+  
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(13, 62, 107);
+        top: 62px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+  
+    nav ul span .img-logo{
+        display: block;
+        width: 100%;
+    }
+  
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+  
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    a.active{
+        background: none;
+        color: #ffffff;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    #check:checked ~ ul{
+        left: -50px;
+        transition: .5s;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+header{
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+header .hea{
+    width: 75%;
+    margin-top: 17%;
+    margin-bottom: 5%;
+}
+header .hea h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+header .hea h1 span{
+    color: #0059ff;
+}
+header .hea p{
+    font-size: 17px;
+    text-align: center;
+}
+header .hea .pan{
+    display: block;
+}
+.hea .pan p{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 33px;
+    transition: 0.3s;
+}
+.hea .pan p:hover{
+    background: rgb(0, 132, 255);
+}
+.hea .pan p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.section{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.87);
+    padding: 40px 0;
+}
+.section .sect{
+    display: flex;
+    justify-content: space-around;
+}
+.section .sect p{
+    font-size: 15px;
+}
+
+
+
+
+
+.section2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+.section2 .cool{
+    width: 80%;
+    display: block;
+}
+.section2 .cool .lef{
+    width: auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 28px 0 black;
+}
+.cool .lef h3{
+    font-weight: bolder;
+    font-family: Arial;
+}
+.cool .lef h2{
+    font-family: monospace;
+    font-size: 22px;
+}
+.cool .lef p{
+    color: #6382bba2;
+}
+
+.section2 .cool .rig{
+    width: auto;
+    margin-left: 0;
+    margin-top: 12%;
+}
+.section2 .cool .rig img{
+    width: 100%;
+    box-shadow: 0 2px 28px 0 black;
+    border-radius: 5px;
+}
+.section2 .cool .rig .don{
+    display: none;
+}
+
+
+
+
+
+.section3{
+    width: auto;
+    height: auto;
+    margin-bottom: 4%;
+}
+.section3 .cen{
+    width: auto;
+    display: block;
+    color: #000000;
+    margin-top: 5%;
+}
+.section3 .cen span{
+    width: 80%;
+    border-radius: 5px;
+    padding: 1px;
+    background: rgb(253, 0, 0);
+    box-shadow: 0 2px 23px 0 black;
+    margin-right: 0%;
+}
+.cen span .cee{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.cen span .cee img{
+    width: 40%;
+    border-radius: 50px;
+}
+.cen span h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.section4{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.section4 .set{
+    width: 93%;
+    height: auto;
+    display: block;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background: none;
+    color: #000;
+}
+.set .lef{
+    width: auto;
+    margin-bottom: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 12px 0 rgba(10, 105, 182, 0.514);
+    padding: 3% 0;
+}
+.set .lef img{
+    width: 90%;
+    display: block;
+}
+
+.section4 .set .rig{
+    width: auto;
+    margin-top: 6%;
+    padding-right: 3%;
+}
+.set .rig h2{
+    font-size: 38px;
+    color: #0051ff;
+}
+.set .rig p{
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section4{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.section4 .set{
+    width: 93%;
+    height: 78vh;
+    display: block;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background: #00ccff;
+    color: #fff;
+}
+.set .lef{
+    width: auto;
+    position: relative;
+    box-shadow: 0 2px 23px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.section4 .set .rig{
+    width: auto;
+    margin-left: 5%;
+    margin-top: 6%;
+    padding-right: 3%;
+}
+
+
+
+
+
+
+.section5{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.section5 .sect{
+    width: 93%;
+    display: block;
+}
+.section5 .sect .lef{
+    width: auto;
+}
+.section5 .sect .lef img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.section5 .sect .rig{
+    width: auto;
+    margin-top: 17%;
+}
+.section5 .sect .rig h2{
+    border-left: 5px solid #0051ff;
+    color: #0051ff;
+    padding-left: 3%;
+    margin-bottom: 8%;
+    font-size: 30px;
+}
+.section5 .sect .rig .bott{
+    display: flex;
+    justify-content: safe;
+}
+.section5 .sect .rig .bott .p{
+    background: #0059ff;
+    padding: 15px 27px;
+    margin-right: 3%;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.section5 .sect .rig .bott .p:hover{
+    background: #011b53;
+}
+.section5 .sect .rig .bott p{
+    background: none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px 27px;
+    color: #0051ff;
+    border: 1px solid #0051ff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.section5 .sect .rig .bott p:hover{
+    background: #a3b2d1;
+}
+
+
+
+
+
+
+
+}
