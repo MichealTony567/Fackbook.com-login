@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="website icon" href="../image/DALL·E.png">
+    <style>
+    </style>
+</head>
+
+<body>
+
+
+    <div class="menu">
+        <div class="con">
+            <img src="../image/Frame 94.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    <section>
+        <div class="sect">
+            <div class="sec">
+                <div class="cen">
+                    <img src="../image/Frame 95.png" alt="">
+                </div>
+                <div class="tex">
+                    <h2>We are waiting for your payment</h2>
+                    <p>Please follow the instructions below and do not refresh or leave this page.
+                        Payment confirmation may take up to 2 minutes.</p>
+                </div>
+                <div class="row">
+                    <h3>Transfer to the following account</h3>
+                    <p>Bank Name:</p>
+                    <h2>Kredi Money Mfb Ltd</h2>
+
+                    <div class="ect">
+                        <div class="lef">
+                            <div class="account-label">
+                                <p>Account Number:</p>
+                            </div>
+                            <div id="accountNumber" class="account-number">
+                                <h2>1859930044</h2>
+                            </div>
+                        </div>
+                        <div class="rig">
+                            <button class="copy" onclick="copyAccountNumber()">Copy Number</button>
+                        </div>
+                    </div>
+
+                    <p>Beneficiary Name:</p>
+                    <h2>Raenest/Tony Michael</h2>
+                </div>
+                <div class="coll">
+                    <h3>Transfer exact amount to avoid failure</h3>
+                    <div class="lef">
+                        <p>Amount to pay:</p>
+                        <span><img src="../image/Vector (2).png" width="80%">
+                            <h1> 339,340.00</h1>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="oow">
+                <h3>We will update this screen after your payment</h3>
+
+                <p>This transaction expires in 20 minutes.</p>
+            </div>
+            <div class="but">
+                <a href="../complete.html">I have Paid</a>
+            </div>
+
+            <div class="bac">
+                <a href="../product.html">Back</a>
+            </div>
+
+        </div>
+
+
+        </div>
+    </section>
+
+
+    <script>
+        function copyAccountNumber() {
+            // Get the account number element
+            const accountNumber = document.getElementById('accountNumber').textContent;
+
+            // Copy the text to the clipboard
+            navigator.clipboard.writeText(accountNumber).then(() => {
+                // Show a success message
+                const message = document.getElementById('message');
+                message.textContent = 'copied';
+
+                // Clear the message after 2 seconds
+                setTimeout(() => {
+                    message.textContent = '';
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy account number: ', err);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

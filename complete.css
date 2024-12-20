@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: #F1EBEB;
+    font-family: Arial;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.menu .con {
+    width: 85%;
+    display: flex;
+    justify-content: start;
+    padding: 15px 0;
+}
+
+
+
+
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.section .sect {
+    width: 50%;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 0 3%;
+}
+
+.sect h1,
+p {
+    text-align: center;
+}
+
+.sect h1 {
+    color: #F68B1E;
+}
+
+.section .top {
+    margin-top: 2%;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.top a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 986px) {
+
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+    }
+
+    .menu .con {
+        width: 85%;
+        display: flex;
+        justify-content: start;
+        padding: 15px 0;
+    }
+
+    .con img {
+        width: 40%;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 975px) {
+
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+    }
+
+    .menu .con img {
+        width: 45%;
+    }
+
+
+
+
+
+
+
+
+
+
+    .section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 5% 0;
+    }
+
+    .section .sect {
+        width: 80%;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 0 3%;
+    }
+
+
+    .sect h1 {
+        font-size: 28px;
+        color: #F68B1E;
+    }
+
+    .section .top {
+        margin: 2% 0;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
