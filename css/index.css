@@ -11,7 +11,7 @@ body {
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     height: 100vh;
     margin: 0;
 }
@@ -20,7 +20,9 @@ body {
 .container {
     width: 100%;
     max-width: 400px;
-    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
 }
 
 /* Facebook Logo */
@@ -146,8 +148,16 @@ a input[type="Log in"]:hover {
     background-color: #36a420;
 }
 
+
+
 /* Responsive Design */
 @media (max-width: 480px) {
+
+    /* Container Styling */
+    .container {
+        padding-top: 10%;
+    }
+
     .login-box {
         padding: 15px;
     }
